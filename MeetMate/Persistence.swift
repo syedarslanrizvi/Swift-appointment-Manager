@@ -7,8 +7,14 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+            let newMeeting = MeetingEntity(context: viewContext)
+            newMeeting.id = UUID()
+            newMeeting.title = "Sample Meeting"
+            newMeeting.datetime = Date()
+            newMeeting.location = "Sample Location"
+            newMeeting.notes = "Sample Notes"
+            newMeeting.reminderSet = false
+            newMeeting.reminderTime = Date()
         }
         do {
             try viewContext.save()

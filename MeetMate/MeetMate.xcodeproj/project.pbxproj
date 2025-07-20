@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055AB0E502E2619D9C37A670 /* MeetMate.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 954E6D05E2182837D71C3BE2 /* MeetMate.xcodeproj */; };
+		131B8913654306FFCE7AF61C /* MeetingEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89D3E4E6ACD8C008E62D2B3 /* MeetingEntity+CoreDataProperties.swift */; };
+		36AD081736A047592F50632C /* MeetingEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F6E25F309BDF8B455C951 /* MeetingEntity+CoreDataClass.swift */; };
+		3FC897813BBE34DF09788654 /* AddMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E7F3EEFD20C1FBDC041966 /* AddMeetingView.swift */; };
+		523741ADB64C60B9EC6607D5 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = EBD5E742808F856201DAF8A1 /* project.yml */; };
+		7C51AD58C53B8D6993D04854 /* MeetMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09785492583E2F9BCF0B3BF3 /* MeetMate.xcdatamodeld */; };
+		8A89EE6316EC3088EB4F4F3C /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7DE673999A58B1A2197CB2 /* NotificationManager.swift */; };
+		9A5194758F1C5C9D559710E0 /* PersonEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489E9791B12FA861193E2AD /* PersonEntity+CoreDataClass.swift */; };
+		B4F025178293427DBDA6CD4A /* MeetMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5839DCF005493B4B436EA9 /* MeetMateApp.swift */; };
+		B64DF8E3B4F0F87A42C09D00 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10AEBCE3D80D32A0AFB19C /* Persistence.swift */; };
+		BABCE36D7B32E1D5D9F89FE8 /* MeetMate.xcdatamodeld.bak in Resources */ = {isa = PBXBuildFile; fileRef = 210074C0DE71755B98ADF174 /* MeetMate.xcdatamodeld.bak */; };
+		C4E6DB34E71BDEFB56A67750 /* PersonEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AA8C8CF9D97006638EE2CA /* PersonEntity+CoreDataProperties.swift */; };
+		E6F82AA92A0EF8879CDE7128 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259652C007AB8940B3BB8F21 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		210074C0DE71755B98ADF174 /* MeetMate.xcdatamodeld.bak */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MeetMate.xcdatamodeld.bak; sourceTree = "<group>"; };
+		259652C007AB8940B3BB8F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27308D6ABD5EBC3B834E64D4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2C5839DCF005493B4B436EA9 /* MeetMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMateApp.swift; sourceTree = "<group>"; };
+		3489E9791B12FA861193E2AD /* PersonEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		87E7F3EEFD20C1FBDC041966 /* AddMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetingView.swift; sourceTree = "<group>"; };
+		8F77879BBE508B230E90A96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		954E6D05E2182837D71C3BE2 /* MeetMate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MeetMate.xcodeproj; sourceTree = "<group>"; };
+		9C7DE673999A58B1A2197CB2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		AC0A86852193C1F906355856 /* MeetMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9F6E25F309BDF8B455C951 /* MeetingEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeetingEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C9AA8C8CF9D97006638EE2CA /* PersonEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DC10AEBCE3D80D32A0AFB19C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EBD5E742808F856201DAF8A1 /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
+		F89D3E4E6ACD8C008E62D2B3 /* MeetingEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeetingEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		32555B7466568B6840AA9CAB = {
+			isa = PBXGroup;
+			children = (
+				AF9F6E25F309BDF8B455C951 /* MeetingEntity+CoreDataClass.swift */,
+				F89D3E4E6ACD8C008E62D2B3 /* MeetingEntity+CoreDataProperties.swift */,
+				3489E9791B12FA861193E2AD /* PersonEntity+CoreDataClass.swift */,
+				C9AA8C8CF9D97006638EE2CA /* PersonEntity+CoreDataProperties.swift */,
+				82F444C8C97E61E6F6DDE189 /* MeetMate */,
+				ADBB11948AEB62AA56BC5CC7 /* Views */,
+				E50172E77193016D66616568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4CFD902E2D962200D606BD /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82F444C8C97E61E6F6DDE189 /* MeetMate */ = {
+			isa = PBXGroup;
+			children = (
+				8F77879BBE508B230E90A96B /* Info.plist */,
+				09785492583E2F9BCF0B3BF3 /* MeetMate.xcdatamodeld */,
+				210074C0DE71755B98ADF174 /* MeetMate.xcdatamodeld.bak */,
+				954E6D05E2182837D71C3BE2 /* MeetMate.xcodeproj */,
+				2C5839DCF005493B4B436EA9 /* MeetMateApp.swift */,
+				9C7DE673999A58B1A2197CB2 /* NotificationManager.swift */,
+				DC10AEBCE3D80D32A0AFB19C /* Persistence.swift */,
+				EBD5E742808F856201DAF8A1 /* project.yml */,
+			);
+			name = MeetMate;
+			path = .;
+			sourceTree = "<group>";
+		};
+		ADBB11948AEB62AA56BC5CC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87E7F3EEFD20C1FBDC041966 /* AddMeetingView.swift */,
+				259652C007AB8940B3BB8F21 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E50172E77193016D66616568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A86852193C1F906355856 /* MeetMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75AC043AF3244886211350B8 /* MeetMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A990CFADB7580A21CBA412 /* Build configuration list for PBXNativeTarget "MeetMate" */;
+			buildPhases = (
+				8E7ACA86E3CCAAB73B893D74 /* Sources */,
+				1550613BA5887C43D59A66B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetMate;
+			packageProductDependencies = (
+			);
+			productName = MeetMate;
+			productReference = AC0A86852193C1F906355856 /* MeetMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7394DA08AFED55405657734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 6E5CB085777A2BF1BB9AB36D /* Build configuration list for PBXProject "MeetMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 32555B7466568B6840AA9CAB;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3A4CFD902E2D962200D606BD /* Products */;
+					ProjectRef = 954E6D05E2182837D71C3BE2 /* MeetMate.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				75AC043AF3244886211350B8 /* MeetMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1550613BA5887C43D59A66B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABCE36D7B32E1D5D9F89FE8 /* MeetMate.xcdatamodeld.bak in Resources */,
+				055AB0E502E2619D9C37A670 /* MeetMate.xcodeproj in Resources */,
+				523741ADB64C60B9EC6607D5 /* project.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7ACA86E3CCAAB73B893D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC897813BBE34DF09788654 /* AddMeetingView.swift in Sources */,
+				E6F82AA92A0EF8879CDE7128 /* ContentView.swift in Sources */,
+				7C51AD58C53B8D6993D04854 /* MeetMate.xcdatamodeld in Sources */,
+				B4F025178293427DBDA6CD4A /* MeetMateApp.swift in Sources */,
+				36AD081736A047592F50632C /* MeetingEntity+CoreDataClass.swift in Sources */,
+				131B8913654306FFCE7AF61C /* MeetingEntity+CoreDataProperties.swift in Sources */,
+				8A89EE6316EC3088EB4F4F3C /* NotificationManager.swift in Sources */,
+				B64DF8E3B4F0F87A42C09D00 /* Persistence.swift in Sources */,
+				9A5194758F1C5C9D559710E0 /* PersonEntity+CoreDataClass.swift in Sources */,
+				C4E6DB34E71BDEFB56A67750 /* PersonEntity+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		136A92A3E8259B546801D301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1F6DBA1C88F2577394450A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDB100FF168B30E3B0D7F6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UK7L475329;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetme.eg;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA43EFD89EE63D10CD23529F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UK7L475329;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetme.eg;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A990CFADB7580A21CBA412 /* Build configuration list for PBXNativeTarget "MeetMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA43EFD89EE63D10CD23529F /* Debug */,
+				CDB100FF168B30E3B0D7F6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E5CB085777A2BF1BB9AB36D /* Build configuration list for PBXProject "MeetMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DBA1C88F2577394450A5D /* Debug */,
+				136A92A3E8259B546801D301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09785492583E2F9BCF0B3BF3 /* MeetMate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27308D6ABD5EBC3B834E64D4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 27308D6ABD5EBC3B834E64D4 /* Model.xcdatamodel */;
+			path = MeetMate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7394DA08AFED55405657734 /* Project object */;
+}
