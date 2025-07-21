@@ -26,8 +26,6 @@
 		E6F82AA92A0EF8879CDE7128 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259652C007AB8940B3BB8F21 /* ContentView.swift */; };
 		HE4D48E08C3B8D6993D04855 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = HE4D48E08C3B8D6993D04854 /* HistoryView.swift */; };
 		HE4D48E08C3B8D6993D04857 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = HE4D48E08C3B8D6993D04856 /* ShareSheet.swift */; };
-		HE4D48E08C3B8D6993D04859 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = HE4D48E08C3B8D6993D04858 /* SignInView.swift */; };
-		HE4D48E08C3B8D6993D04861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = HE4D48E08C3B8D6993D04860 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +50,6 @@
 		F89D3E4E6ACD8C008E62D2B3 /* MeetingEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeetingEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		HE4D48E08C3B8D6993D04854 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		HE4D48E08C3B8D6993D04856 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
-		HE4D48E08C3B8D6993D04858 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		HE4D48E08C3B8D6993D04860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -67,7 +63,6 @@
 				82F444C8C97E61E6F6DDE189 /* MeetMate */,
 				ADBB11948AEB62AA56BC5CC7 /* Views */,
 				E50172E77193016D66616568 /* Products */,
-				EBD240162E2E415200BBE0A6 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +93,6 @@
 				D617E90A65CBEF0108C3FBDD /* MotivationalQuoteView.swift */,
 				HE4D48E08C3B8D6993D04854 /* HistoryView.swift */,
 				HE4D48E08C3B8D6993D04856 /* ShareSheet.swift */,
-				HE4D48E08C3B8D6993D04858 /* SignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,14 +108,6 @@
 		EBD2400C2E2E25C300BBE0A6 /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EBD240162E2E415200BBE0A6 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				HE4D48E08C3B8D6993D04860 /* Assets.xcassets */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +172,6 @@
 				BABCE36D7B32E1D5D9F89FE8 /* MeetMate.xcdatamodeld.bak in Resources */,
 				055AB0E502E2619D9C37A670 /* MeetMate.xcodeproj in Resources */,
 				523741ADB64C60B9EC6607D5 /* project.yml in Resources */,
-				HE4D48E08C3B8D6993D04861 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +198,6 @@
 				C4E6DB34E71BDEFB56A67750 /* PersonEntity+CoreDataProperties.swift in Sources */,
 				HE4D48E08C3B8D6993D04855 /* HistoryView.swift in Sources */,
 				HE4D48E08C3B8D6993D04857 /* ShareSheet.swift in Sources */,
-				HE4D48E08C3B8D6993D04859 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,17 +327,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MeetMate.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.syedarslan.rixv;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MeetMate;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,17 +343,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MeetMate.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7V3JM6DYDP;
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.syedarslan.rixv;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syedarslan.rix;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

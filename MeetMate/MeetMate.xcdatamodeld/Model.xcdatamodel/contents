@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model name="MeetMate" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22770" systemVersion="23F79" minimumToolsVersion="12.0">
     <entity name="MeetingEntity" representedClassName="MeetingEntity" syncable="YES">
-        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" optional="YES" defaultValueString="UUID()" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="title" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="datetime" attributeType="Date" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="location" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="notes" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="tag" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="status" attributeType="String" usesScalarValueType="NO" optional="YES" defaultValueString="active" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="color" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" defaultValueString="UUID()" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="title" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="datetime" attributeType="Date" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="location" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="notes" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="tag" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="status" attributeType="String" usesScalarValueType="NO" defaultValueString="active" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="color" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
         <attribute name="reminderSet" attributeType="Boolean" usesScalarValueType="YES" defaultValueString="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="reminderTime" attributeType="Date" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <relationship name="person" a-sync="YES" destinationEntity="PersonEntity" inverseName="meetings" inverseEntity="PersonEntity" optional="YES" deletionRule="Nullify" syncable="YES"/>
+        <attribute name="reminderTime" attributeType="Date" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <relationship name="person" toMany="NO" maxCount="1" deletionRule="Nullify" destinationEntity="PersonEntity" inverseName="meetings" inverseEntity="PersonEntity" syncable="YES"/>
     </entity>
     <entity name="PersonEntity" representedClassName="PersonEntity" syncable="YES">
-        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" optional="YES" defaultValueString="UUID()" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="name" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="notes" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <attribute name="tag" attributeType="String" usesScalarValueType="NO" optional="YES" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
-        <relationship name="meetings" a-sync="YES" toMany="YES" destinationEntity="MeetingEntity" inverseName="person" inverseEntity="MeetingEntity" optional="YES" deletionRule="Cascade" syncable="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" defaultValueString="UUID()" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="name" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="tag" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <attribute name="notes" attributeType="String" usesScalarValueType="NO" preservesValueInHistory="YES" allowsCloudEncryption="YES"/>
+        <relationship name="meetings" toMany="YES" deletionRule="Cascade" destinationEntity="MeetingEntity" inverseName="person" inverseEntity="MeetingEntity" syncable="YES"/>
     </entity>
 </model>

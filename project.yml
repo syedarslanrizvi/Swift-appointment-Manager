@@ -7,13 +7,7 @@ targets:
     platform: iOS
     deploymentTarget: "16.0"
     sources:
-      - MeetMate/
+      - ./
     settings:
       base:
-        SWIFT_VERSION: 5.0
-    entitlements:
-      com.apple.developer.icloud-container-identifiers:
-        - iCloud.com.example.MeetMate
-      com.apple.developer.ubiquity-kvstore-identifier: $(TeamIdentifierPrefix)$(CFBundleIdentifier)
-      com.apple.developer.applesignin:
-        - Default 
+        SWIFT_VERSION: 5.0 

@@ -2,31 +2,25 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @State private var isSignedIn = false
-
     var body: some View {
-        if isSignedIn {
-            TabView {
-                MeetingsView()
-                    .tabItem {
-                        Image(systemName: "calendar")
-                        Text("Meetings")
-                    }
+        TabView {
+            MeetingsView()
+                .tabItem {
+                    Image(systemName: "calendar")
+                    Text("Meetings")
+                }
 
-                PeopleView()
-                    .tabItem {
-                        Image(systemName: "person.2.fill")
-                        Text("People")
-                    }
+            PeopleView()
+                .tabItem {
+                    Image(systemName: "person.2.fill")
+                    Text("People")
+                }
 
-                HistoryView()
-                    .tabItem {
-                        Image(systemName: "clock.fill")
-                        Text("History")
-                    }
-            }
-        } else {
-            SignInView(isSignedIn: $isSignedIn)
+            HistoryView()
+                .tabItem {
+                    Image(systemName: "clock.fill")
+                    Text("History")
+                }
         }
     }
 }
