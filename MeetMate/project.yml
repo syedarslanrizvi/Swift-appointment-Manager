@@ -1,29 +1,14 @@
 name: MeetMate
 options:
   bundleIdPrefix: com.example
-  deploymentTarget:
-    iOS: '16.0'
-settings:
-  base:
-    SWIFT_VERSION: 5.0
 targets:
   MeetMate:
     type: application
     platform: iOS
+    deploymentTarget: "16.0"
     sources:
-      - .
-      - MeetingEntity+CoreDataClass.swift
-      - MeetingEntity+CoreDataProperties.swift
-      - PersonEntity+CoreDataClass.swift
-      - PersonEntity+CoreDataProperties.swift
-    resources:
-      - MeetMate.xcdatamodeld
-    info:
-      path: Info.plist
-      properties:
-        CFBundleIdentifier: com.example.MeetMate
-        UILaunchStoryboardName: LaunchScreen
-        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
-        NSAppTransportSecurity:
-          NSAllowsArbitraryLoads: true
-    dependencies: [] 
+      - MeetMate/
+      - MeetMate/Views/
+    settings:
+      base:
+        SWIFT_VERSION: 5.0 
